@@ -34,6 +34,23 @@ pip install -e .
 
 Now you're ready to push local changes to your fork!
 
+## Deployment
+
+Follow these steps to deploy the application locally!
+
+Make sure you've completed the steps above on how to start development.
+
+Serve the application on localhost with the following, where $CONFIG_NAME is development.ini or production.ini.
+
+```
+$REPO_PATH/pserve $CONFIG_NAME --reload
+```
+
+Then go to the localhost port that the application is bound to in order to see the site.
+
+Changes made to the repo should reload on page refresh.
+
+
 ## Merge Strategy (Needs to be discussed)
 
 1. Fork repo
